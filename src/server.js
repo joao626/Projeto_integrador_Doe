@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true}))
 
 app.post('/usuarios', (req, res, next) => {
     console.log(req.body)
-    res.send('<h1>Parabéns, usuario incluido !</h1>')
+    res.send('<h1>Sucesso !</h1>')
 })
 
 app.listen(3003)
