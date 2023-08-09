@@ -18,16 +18,16 @@
         <h2> Cadastro de Usuário</h2>
         <form method="post">
             Nome completo:<br>
-            <input type="text" name="Nome"><br>
+            <input type="text" name="Nome" required><br>
             Nome de usuário:<br>
-            <input type="text" name="usuário"><br>
+            <input type="text" name="usuário" required><br>
             E-mail:<br>
-            <input type="text" name="Email"><br>
+            <input type="text" name="Email" required><br>
             Senha<br>
-            <input type="password" name="Senha"><br>
+            <input type="password" name="Senha" required><br>
             Confirme a Senha<br>
-            <input type="password"><br>
-            <input type="checkbox" name="Termos"> 
+            <input type="password" required><br>
+            <input type="checkbox" name="Termos" required> 
             Compreendo e aceito os termos e condições da Política de Privacidade do Usuário
             <button formaction="http://localhost:3003/usuarios">Cadastrar</button>
         </form> <br>
