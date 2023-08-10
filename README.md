@@ -8,7 +8,7 @@ ORGANIZADORES:
   
 - Rodrigo Oliveira: https://github.com/rodri-oliveira
   
-- João Sales
+- João Sales : https://github.com/joao626
 
 O projeto DOE+ foi criado para unir comunidades e pessoas transmitindo esperança em forma de doações de roupas.
 
