@@ -4,103 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Itens</title>
-    <style>
-        input {
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        input[type=radio] {
-            display: inline;
-        }
-
-        #tipo-roupa,#tamanho {
-            margin-bottom: 50px;
-        }
-
-        #logo-header {
-            width: 150px;
-            height: 150px;
-        }
-
-        
-    </style>
+    <link rel="stylesheet" href="/css/cadastroItens.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="../../index.html">Home</a> |
-            <a href="../../html/quemSomos.html">Quem Somos</a> |
-            <img src="/img/logo2.png" alt="" id="logo-header">
-            <button>
+    <header class="header-nav">
+        <nav class="nav">
+            <img src="/img/logo-header-100px.png" alt="Logo Doe +" id="logo-header">
+            <a href="../../index.html">Pagina Principal</a> 
+            <a href="../../html/quemSomos.html">Quem Somos</a> 
+            <a href="">Logout</a>
+            <!-- <button class="button-out">
                 <a href="">Logout</a>
-            </button>
+            </button> -->
             <a href="http://">Esqueceu a senha ?</a>
-            <hr>
+            
         </nav>
     </header>
 
-    <div>
-        <h1>Doador</h1>
-    </div>
-
-    <div>
-        <h3>
-            Escolha o que será doado hoje.
-        </h3>
-    </div>
-    <hr>
-
-    <form method="post">
-
-        <h3>Tipo de Roupa</h3>
-        <select name="tipo-roupa" id="tipo-roupa">
-            <option value="calca">Calça</option>
-            <option value="camiseta">Camiseta</option>
-            <option value="Blusa">Blusa</option>
-            <option value="bermuda">Bermuda</option>
-            <option value="saia">Saia</option>
-        </select>
+    
+    <main class="container">
+        <div class="text1">
+            <h1>Doador</h1>
+        </div>
+    
+        <div class="text2">
+            <h3>
+                Escolha o que será doado hoje.
+            </h3>
+        </div>
         <hr>
-
-        <h3>Tamanho</h3>
-        <select name="tipo-roupa" id="tamanho">
-            <option value="p">P</option>
-            <option value="m">M</option>
-            <option value="g">G</option>
-        </select>
-        <hr>
-
-        <h3>Fotos da Roupa ( Máximo de 3 Fotos Por Anúncio )</h3>
-        <div>
-            <label class="picture" for="picture__input" tabIndex="0">
-                <span class="picture__image"></span>
-            </label>
-            <input type="file" name="picture__input" id="picture__input">
-        </div>
-
-        <div>
-            <label class="picture" for="picture__input" tabIndex="0">
-                <span class="picture__image"></span>
-            </label>
-            <input type="file" name="picture__input" id="picture__input">
-        </div>
-
-        <div>
-            <label class="picture" for="picture__input" tabIndex="0">
-                <span class="picture__image"></span>
-            </label>
-            <input type="file" name="picture__input" id="picture__input">
-        </div>
+        <div class="container-form">
+            <form method="post" id="form">
+                    <div class="form-select-type">
+                        <h3>Tipo de Roupa</h3>
+                        <select name="tipo-roupa">
+                            <option value="calca">Calça</option>
+                            <option value="camiseta">Camiseta</option>
+                            <option value="Blusa">Blusa</option>
+                            <option value="bermuda">Bermuda</option>
+                            <option value="saia">Saia</option>
+                        </select>
+                    </div>
+                    <hr>
+            
+                    <div class="size-clothes">
+                        <h3>Tamanho</h3>
+                        <select class="size-clothes" name="tamanho-roupa">
+                            <option value="p">P</option>
+                            <option value="m">M</option>
+                            <option value="g">G</option>
+                        </select>
+                    </div>
+                    <hr>
+            
+                    <div class="upload-file">
+                        <div class="texto-upload">
+                            <h3>Fotos da Roupa ( Máximo de 3 Fotos Por Anúncio )</h3>
+                        </div>
+                        <div class="upload">
+                            <label for="picture__input"></label>
+                            <input type="file" name="picture__input" id="picture__input" tabindex="0">
+                        </div>
+                
+                        <div class="upload">
+                            <label for="picture__input"></label>
+                            <input type="file" name="picture__input" id="picture__input" tabindex="0">
+                        </div>
+                
+                        <div class="upload">
+                            <label for="picture__input"></label>
+                            <input type="file" name="picture__input" id="picture__input" tabindex="0">
+                        </div>
+                        
+                        <div class="button-send">
+                            <button formaction="http://localhost:3003/usuarios">Anunciar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </main>
+    
+    <footer class="footer">
+        <img class="logo-footer" src="/img/logo-header-100px.png" alt="Logo footer">
         
-        <button formaction="http://localhost:3003/usuarios">Anunciar</button>
-    </form>
-    <hr>
-    <footer>
-        <div id="logo-footer">
-            <img src="/img/logo2.png" alt="">
-        </div>
-        <address>
+        <address class="endereco-footer">
             Rua Novembro, 789, Vila Cintra , São Paulo-SP
         </address>
     </footer>

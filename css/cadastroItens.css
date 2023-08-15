@@ -1,0 +1,28 @@
+body {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.container , footer{
+    border: solid 3px;
+}
+
+.nav a {
+    text-decoration: none;
+    
+}
+
+.nav {
+    padding: 1px;
+    border: solid 3px;
+    
+}
+
+.nav a {
+    font-size: 20px;
+}
+
+div input[type=file]:hover{
+    background-color: rgb(39, 196, 196);
+}
+
