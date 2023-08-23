@@ -134,7 +134,7 @@ button:hover {
     transition: color 0.3s;
 }
 
-/* .footer-links a:hover {
-    color: #A68660;
-} */
+.footer-links a:hover {
+    color: aqua;
+}
 
