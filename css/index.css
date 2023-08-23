@@ -1,0 +1,116 @@
+/* Reset de Estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Oswald", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Estilo do Header */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+.logo-header {
+  border-radius: 10px;
+  border: solid red;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilo do Main */
+.container {
+  /* background-color: #fff; */
+  background-image: url(../img/img-amassada);
+  max-width: 11000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.texto-principal {
+  /* background-color: rgb(210, 226, 226); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  margin: 30px;
+}
+
+/* .texto {
+    background-color: #9090b7   ;
+} */
+
+.texto h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.texto h3 {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.signup-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.signup-link:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo do Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #007bff;
+}
