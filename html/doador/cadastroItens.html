@@ -6,98 +6,82 @@
     <title>Cadastro Itens</title>
     <link rel="stylesheet" href="/css/cadastroItens.css">
 </head>
-
 <body>
-    <header class="header-nav">
-        <nav class="nav">
-            <img src="/img/logo-header-100px.png" alt="Logo Doe +" id="logo-header">
-            <a href="../../index.html">Pagina Principal</a> 
-            <a href="../../html/quemSomos.html">Quem Somos</a> 
-            <a href="">Logout</a>
-            <!-- <button class="button-out">
-                <a href="">Logout</a>
-            </button> -->
-            <a href="http://">Esqueceu a senha ?</a>
-            
-        </nav>
-    </header>
 
-    
-    <main class="container">
-        <div class="text1">
-            <h1>Doador</h1>
-        </div>
-    
-        <div class="text2">
-            <h3>
-                Escolha o que será doado hoje.
-            </h3>
-        </div>
-        <hr>
-        <div class="container-form">
-            <form method="post" id="form">
-                    <div class="form-select-type">
-                        <h3>Tipo de Roupa</h3>
-                        <select name="tipo-roupa">
-                            <option value="calca">Calça</option>
-                            <option value="camiseta">Camiseta</option>
-                            <option value="Blusa">Blusa</option>
-                            <option value="bermuda">Bermuda</option>
-                            <option value="saia">Saia</option>
-                        </select>
-                    </div>
-                    <hr>
-            
-                    <div class="size-clothes">
-                        <h3>Tamanho</h3>
-                        <select class="size-clothes" name="tamanho-roupa">
-                            <option value="p">P</option>
-                            <option value="m">M</option>
-                            <option value="g">G</option>
-                        </select>
-                    </div>
-                    <hr>
-            
-                    <div class="upload-file">
-                        <div class="texto-upload">
-                            <h3>Fotos da Roupa ( Máximo de 3 Fotos Por Anúncio )</h3>
-                        </div>
-                        <div class="upload">
-                            <label for="picture__input"></label>
-                            <input type="file" name="picture__input" id="picture__input" tabindex="0">
-                        </div>
-                
-                        <div class="upload">
-                            <label for="picture__input"></label>
-                            <input type="file" name="picture__input" id="picture__input" tabindex="0">
-                        </div>
-                
-                        <div class="upload">
-                            <label for="picture__input"></label>
-                            <input type="file" name="picture__input" id="picture__input" tabindex="0">
-                        </div>
-                        
-                        <div class="button-send">
-                            <button formaction="http://localhost:3003/usuarios">Anunciar</button>
-                        </div>
-                    </div>
-                </form>
+<header>
+    <div class="nav">
+        <img src="/img/logo-header-60px.png" alt="Logo Doe +" class="logo-header">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../../html/quemSomos.html">Quem Somos</a></li>
+                <li><a href="">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <div class="text-section">
+        <h1 class="text1">Doador</h1>
+        <h3 class="text2">Escolha o que será doado hoje.</h3>
+    </div>
+    <div class="container-form">
+        <form method="post" id="form">
+            <div class="form-group">
+                <label for="tipo-roupa">Tipo de Roupa</label>
+                <select name="tipo-roupa" id="tipo-roupa">
+                    <option value="calca">Calça</option>
+                    <option value="camiseta">Camiseta</option>
+                    <option value="Blusa">Blusa</option>
+                    <option value="bermuda">Bermuda</option>
+                    <option value="saia">Saia</option>
+                </select>
             </div>
-    </main>
     
-    <footer class="footer">
-        <img class="logo-footer" src="/img/logo-header-100px.png" alt="Logo footer">
-        
-        <address class="endereco-footer">
-            Rua Novembro, 789, Vila Cintra , São Paulo-SP
-        </address>
-    </footer>
+            <div class="form-group">
+                <label for="tamanho-roupa">Tamanho</label>
+                <select name="tamanho-roupa" id="tamanho-roupa">
+                    <option value="p">P</option>
+                    <option value="m">M</option>
+                    <option value="g">G</option>
+                </select>
+            </div>
+    
+            <div class="upload-file">
+                <div class="texto-upload">
+                    <h3>Fotos da Roupa (Máximo de 3 Fotos Por Anúncio)</h3>
+                </div>
+                <div  class="upload-label">
+                    <label for="picture__input">Apenas Imagens</label>
+                    <input type="file" name="picture__input" id="picture__input" tabindex="0" accept="image/*" multiple>
+                </div>
+                <div  class="upload-label">
+                    <label for="picture__input">Apenas Imagens</label>
+                    <input type="file" name="picture__input" id="picture__input" tabindex="0" accept="image/*" multiple>
+                </div>
+                <div  class="upload-label">
+                    <label for="picture__input">Apenas Imagens</label>
+                    <input type="file" name="picture__input" id="picture__input" tabindex="0" accept="image/*" multiple>
+                </div>
+
+                <!-- <input type="file" name="picture__input" id="picture__input" tabindex="0">
+                <input type="file" name="picture__input" id="picture__input" tabindex="0">
+                <input type="file" name="picture__input" id="picture__input" tabindex="0"> -->
+                <div class="button-send">
+                    <button formaction="http://localhost:3003/usuarios">Anunciar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer-links">
+        <span><a href="#">Endereço</a></span>
+        <span><a href="#">Redes sociais</a></span>
+        <span><a href="#">Política de privacidade</a></span>
+    </div>
+</footer>
 </body>
 </html>
-
-
-
-
-
-
-
