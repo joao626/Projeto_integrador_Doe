@@ -129,7 +129,7 @@ button:hover {
 
 .footer-links a {
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
     text-decoration: none;
     transition: color 0.3s;
 }
