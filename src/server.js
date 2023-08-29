@@ -2,7 +2,8 @@ const express = require('express') // Importa o módulo express, que é um frame
 const app = express() // Inicializa uma instância do aplicativo Express
 const path = require('path');// Importa o módulo path que lida com manipulações de caminho de arquivo.
 
-const bodyParser = require('body-parser') // para analisar dados do corpo das requisições. Isso é útil para extrair os dados enviados por formulários HTML POST
+const bodyParser = require('body-parser') // para analisar dados do corpo das requisições. Isso é útil 
+// para extrair os dados enviados por formulários HTML POST
 
 app.use(bodyParser.urlencoded({ extended: true})) // Configura o middleware
 
