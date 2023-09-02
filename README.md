@@ -1,38 +1,55 @@
-PROJETO INTEGRADOR, GRUPO A - PROZ EDUCAÇÃO
+# Projeto Integrador <br> Curso de Introdução à Programação com foco em Front-End <br> Proz Educação - Portal Tech 
 
-CURSO DE INTRODUÇÃO À PROGRAMAÇÃO. 
+### Turma: 11 - Grupo: A - Professor: Rand.
 
-ORGANIZADORES:
+**O Portal Tech é um programa criado pela AWS e pela Meta para abrir um portal de acesso ao conhecimento sobre algumas das tecnologias que mais crescem no mundo: computação em nuvem, metaverso e marketing digital.**
 
-- Matheus Monteiro: https://github.com/matheus-monteiro97
+### Este repositório contém arquivos criados com a finalidade de cumprimento do Projeto de Conclusão de Curso.
+
+## Tecnologias Usadas:
+
+## Nome do site: Doe+
+
+## Informações: 
+
+### OBJETIVO:
+
+<p>O projeto DOE+ foi criado para unir comunidades e pessoas transmitindo esperança em forma de doações de roupas. O nosso projeto consiste em conectar pessoas que podem doar, mas, não sabem a quem e pessoas que necessitam de doações e não sabem onde encontrar.</p>
+<p>A ideia surgiu quando seus organizadores, que moram em diferentes localidades do país, perceberam em suas vivências a falta de conexão entre as pessoas doadoras e as receptoras. </p>
+<p>Nesse sentido, o nosso objetivo é resolver este problema conectando pessoas através de ações de solidariedade, promovendo assim, dignidade e bem estar social.</p>
+
+### ORGANIZADORES:
+
+* Matheus Monteiro:
   
-- Rodrigo Oliveira: https://github.com/rodri-oliveira
+* Rodrigo Oliveira:
   
-- João Sales : https://github.com/joao626
+* João Sales:
 
-O projeto DOE+ foi criado para unir comunidades e pessoas transmitindo esperança em forma de doações de roupas.
+### FUNCIONALIDADES:
 
-OBJETIVO:
-
-O projeto DOE+ foi criado para unir comunidades e pessoas transmitindo esperança em forma de doações de roupas. O nosso projeto consiste em conectar pessoas que podem doar, mas, não sabem a quem e pessoas que necessitam de doações e não sabem onde encontrar. 
-A ideia surgiu quando seus organizadores, que moram em diferentes localidades do país, perceberam em suas vivências a falta de conexão entre as pessoas doadoras e as receptoras. 
-Nesse sentido, o nosso objetivo é resolver este problema conectando pessoas através de ações de solidariedade, promovendo assim, dignidade e bem estar social.
-
-FUNCIONALIDADES:
-
- - Cadastro de usuários que desejam doar ou receber.
+ * Cadastro de usuários que desejam doar ou receber.
  
- - Anúncio dos itens a serem doados.
+ * Anúncio dos itens a serem doados.
  
- - Pesquisa de itens por cidade para facilitar a busca e troca de itens.
+ * Pesquisa de itens por cidade para facilitar a busca e troca de itens.
  
- - Chat para contato entre doadores e receptores.
+ * Chat para contato entre doadores e receptores.
 
-TECNOLOGIAS USADAS:
+### Públicos Alvo: 
 
-- Javascript.
+* Pessoas que desejam realizar doações de roupas e não sabem onde ou a quem doar.
 
-- HTML
+* Pessoas que desejam receber doações de roupas e não sabem onde ou a quem recorrer.
 
-- CSS
+### Link do site: 
+**Projeto ainda em construção, mas, você pode conferir em:**
 
+### Agradecimentos:
+* Proz - Educação;
+  
+* AWS;
+
+* META;
+
+* Professor Rand;
