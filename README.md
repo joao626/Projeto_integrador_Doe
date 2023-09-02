@@ -1,6 +1,6 @@
 # Projeto Integrador <br> Curso de Introdução à Programação com foco em Front-End <br> Proz Educação - Portal Tech 
 
-### Turma: 11 - Grupo: A - Professor: Rand.
+### Turma: 11 - Grupo: A - Professor: Randerson Melville.
 
 **O Portal Tech é um programa criado pela AWS e pela Meta para abrir um portal de acesso ao conhecimento sobre algumas das tecnologias que mais crescem no mundo: computação em nuvem, metaverso e marketing digital.**
 
@@ -12,13 +12,13 @@
 
 ## Informações: 
 
-### OBJETIVO:
+### Objetivo:
 
 <p>O projeto DOE+ foi criado para unir comunidades e pessoas transmitindo esperança em forma de doações de roupas. O nosso projeto consiste em conectar pessoas que podem doar, mas, não sabem a quem e pessoas que necessitam de doações e não sabem onde encontrar.</p>
 <p>A ideia surgiu quando seus organizadores, que moram em diferentes localidades do país, perceberam em suas vivências a falta de conexão entre as pessoas doadoras e as receptoras. </p>
 <p>Nesse sentido, o nosso objetivo é resolver este problema conectando pessoas através de ações de solidariedade, promovendo assim, dignidade e bem estar social.</p>
 
-### ORGANIZADORES:
+### Organizadores:
 
 * Matheus Monteiro:
   
@@ -26,7 +26,7 @@
   
 * João Sales:
 
-### FUNCIONALIDADES:
+### Funcionalidades:
 
  * Cadastro de usuários que desejam doar ou receber.
  
@@ -46,10 +46,12 @@
 **Projeto ainda em construção, mas, você pode conferir em:**
 
 ### Agradecimentos:
-* Proz - Educação;
+* [Proz - Educação](https://prozeducacao.com.br/);
+
+* [Portal Tech](https://www.portaltechs.com/);
   
-* AWS;
+* [AWS](https://aws.amazon.com/pt/?nc2=h_lg);
 
-* META;
+* [META](https://about.meta.com/br/);
 
-* Professor Rand;
+* [Professor Rand](https://github.com/RandMelville);
