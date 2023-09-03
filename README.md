@@ -4,11 +4,27 @@
 
 **O Portal Tech é um programa criado pela AWS e pela Meta para abrir um portal de acesso ao conhecimento sobre algumas das tecnologias que mais crescem no mundo: computação em nuvem, metaverso e marketing digital.**
 
+<div align="center">
+  <img alt="proz" height="180" src="img-idealizadores/img-proz.png">
+  <img alt="portalTech" height="180" src="img-idealizadores/img-portalTech.png">
+  <img alt="meta" height="180" src="img-idealizadores/img-meta.png">
+  <img alt="aws" height="180" src="img-idealizadores/img-aws.png">
+</div>
+
 ### Este repositório contém arquivos criados com a finalidade de cumprimento do Projeto de Conclusão de Curso.
 
 ## Tecnologias Usadas:
 
-## Nome do site: Doe+
+<div>
+  <img align="center" alt="git" height="70" src="img-tecnologias/img-git.png">
+  <img align="center" alt="github" height="70" src="img-tecnologias/img-github.png">
+  <img align="center" alt="vsCode" height="70" src="img-tecnologias/img-vsCode.png">
+  <img align="center" alt="css" height="70" src="img-tecnologias/img-css.png">
+  <img align="center" alt="javascript" height="70" src="img-tecnologias/img-javascript.png">
+  <img align="center" alt="html" height="70" src="img-tecnologias/img-html.png">
+</div>
+
+## Nome do site: <img align="center" alt="logo" height="90" src="img/logo2.png">
 
 ## Informações: 
 
@@ -55,3 +71,7 @@
 * [META](https://about.meta.com/br/);
 
 * [Professor Rand](https://github.com/RandMelville);
+
+<div align="center">
+    <img alt="logo" width = "30%" src="img/logo2.png">
+</div>
