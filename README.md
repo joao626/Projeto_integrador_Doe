@@ -13,7 +13,7 @@
 
 ### Este repositório contém arquivos criados com a finalidade de cumprimento do Projeto de Conclusão de Curso.
 
-## Tecnologias Usadas:
+## Tecnologias Utilizadas:
 
 <div>
   <img align="center" alt="git" height="70" src="img-tecnologias/img-git.png">
