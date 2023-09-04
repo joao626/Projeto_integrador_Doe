@@ -6,7 +6,7 @@
 
 <div align="center">
   <img alt="proz" height="180" src="img-idealizadores/img-proz.png">
-  <img alt="portalTech" height="180" src="img-idealizadores/img-portalTech.png">
+  <img alt="portalTech" height="100" src="img-idealizadores/img-portalTech.png">
   <img alt="meta" height="180" src="img-idealizadores/img-meta.png">
   <img alt="aws" height="180" src="img-idealizadores/img-aws.png">
 </div>
@@ -24,7 +24,7 @@
   <img align="center" alt="html" height="70" src="img-tecnologias/img-html.png">
 </div>
 
-## Nome do site: <img align="center" alt="logo" height="90" src="img/logo2.png">
+## Nome do site: DOE+
 
 ## Informações: 
 
@@ -36,11 +36,11 @@
 
 ### Organizadores:
 
-* Matheus Monteiro:
-  
-* Rodrigo Oliveira:
-  
-* João Sales:
+  Foto | Nome | Github | Linkedin 
+  |:-----:|:------:|:--------:|:----------:|
+<img alt="matheus" height="100" src="img-organizadores/img-matheus.jpg">| **Matheus Monteiro** | <a href="https://github.com/matheus-monteiro97"> <img alt="git-matheus" height="100" src="img-tecnologias/img-github.png"></a>|<a href="https://www.linkedin.com/in/matheus-monteiro97"><img alt="linkedin-matheus" height="80" src="img-organizadores/img-perfilProfissional.png"></a>|
+<img alt="rodrigo" height="110" src="img-organizadores/img-rodrigo.jpeg">| **Rodrigo Oliveira** |<a href="https://github.com/rodri-oliveira"> <img alt="git-rodrigo" height="100" src="img-tecnologias/img-github.png"></a>|<a href="https://www.linkedin.com/in/rodrigo-de-oliveira-528a33203"><img alt="linkedin-rodrigo" height="80" src="img-organizadores/img-perfilProfissional.png"></a>|
+<img alt="joao" height="110" src="img-organizadores/img-joao.jpeg">| **João Sales** |<a href="https://github.com/joao626"><img alt="git-joao" height="100" src="img-tecnologias/img-github.png"></a>|<a href="https://www.linkedin.com/in/jo%C3%A3o-sales-b183a819b"><img alt="linkedin-joao" height="80" src="img-organizadores/img-perfilProfissional.png"></a>|
 
 ### Funcionalidades:
 
